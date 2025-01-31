@@ -1,0 +1,41 @@
+﻿@using MODELS
+@model List<Employee>
+
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<h1>Employee List</h1>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Create New Employee</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Date of Birth</th>
+            <th>Salary</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.FirstName</td>
+                <td>@employee.LastName</td>
+                <td>@employee.Email</td>
+                <td>@employee.PhoneNumber</td>
+                <td>@employee.DateOfBirth.ToShortDateString()</td>
+                <td>@employee.EncryptedSalary</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = employee.Id })" class="btn btn-warning">Edit</a>
+                    <a href="@Url.Action("Delete", new { id = employee.Id })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

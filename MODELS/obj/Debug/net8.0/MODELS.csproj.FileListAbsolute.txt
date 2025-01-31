@@ -1,0 +1,12 @@
+D:\ArunSpace\EmployeeManagement\MODELS\bin\Debug\net8.0\MODELS.deps.json
+D:\ArunSpace\EmployeeManagement\MODELS\bin\Debug\net8.0\MODELS.dll
+D:\ArunSpace\EmployeeManagement\MODELS\bin\Debug\net8.0\MODELS.pdb
+D:\ArunSpace\EmployeeManagement\MODELS\obj\Debug\net8.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+D:\ArunSpace\EmployeeManagement\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfoInputs.cache
+D:\ArunSpace\EmployeeManagement\MODELS\obj\Debug\net8.0\MODELS.AssemblyInfo.cs
+D:\ArunSpace\EmployeeManagement\MODELS\obj\Debug\net8.0\MODELS.csproj.CoreCompileInputs.cache
+D:\ArunSpace\EmployeeManagement\MODELS\obj\Debug\net8.0\MODELS.dll
+D:\ArunSpace\EmployeeManagement\MODELS\obj\Debug\net8.0\refint\MODELS.dll
+D:\ArunSpace\EmployeeManagement\MODELS\obj\Debug\net8.0\MODELS.pdb
+D:\ArunSpace\EmployeeManagement\MODELS\obj\Debug\net8.0\ref\MODELS.dll
+D:\ArunSpace\EmployeeManagement\MODELS\obj\Debug\net8.0\MODELS.csproj.AssemblyReference.cache
